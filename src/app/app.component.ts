@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 export class AppComponent  {
   formUnidades : FormGroup
   title = 'angular-hosting';
-  Resultado=null;
+  Resultado=0;
   constructor(
     private formbuilder : FormBuilder,
     ) {
