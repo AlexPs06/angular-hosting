@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 export class AppComponent  {
   formUnidades : FormGroup
   title = 'angular-hosting';
-  Resultado=0;
+  Resultado=null;
   constructor(
     private formbuilder : FormBuilder,
     ) {
@@ -24,7 +24,7 @@ export class AppComponent  {
   Suma(){
     let numero = this.formUnidades.get("Numero1").value;
     let numero2 =this.formUnidades.get("Numero2").value;
-    this.Resultado= numero+numero2
+    this.Resultado= numero+numero2;
     
   }
 }
