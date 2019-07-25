@@ -13,7 +13,7 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - npm run test --watch=false  --browsers=ChromeHeadlessNoSandbox
+  - npm run test --watch=false 
   - ng build --prod
 
 
