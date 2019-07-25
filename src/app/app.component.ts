@@ -24,7 +24,7 @@ export class AppComponent  {
   Suma(){
     let numero = this.formUnidades.get("Numero1").value;
     let numero2 =this.formUnidades.get("Numero2").value;
-    this.Resultado= parseFloat(numero) +parseFloat(numero2);
+    this.Resultado= parseFloat(numero)+parseFloat(numero2);
     
   }
 }
